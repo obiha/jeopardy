@@ -1,0 +1,44 @@
+body, html {
+    height: 100%;
+    margin: 0;
+   
+  }
+body {
+    
+    padding: 1%;
+    
+    background: #6f1db8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1600e0, #8E2DE2);  
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    animation: example 4s infinite linear;
+}
+@keyframes example {
+    from{background: linear-gradient(47deg, rgba(0,74,230,1) 16%, rgb(171, 80, 231) 53%, rgb(198, 136, 255) 97%);}
+    to{background: linear-gradient(47deg, rgba(119,0,230,1) 16%, rgb(129, 90, 228) 53%, rgba(0,63,144,1) 97%);}
+}
+
+.buttoncontainer{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 0.3%;
+    height: 98%; 
+    background-color: black; 
+}
+.button {
+    
+    background: rgb(0,74,230);
+    background: linear-gradient(47deg, rgba(0,74,230,1) 16%, rgba(0,73,219,1) 53%, rgba(0,63,144,1) 97%); 
+    
+    border-style: solid;
+    border-width: thick;
+    border-color: rgba(0, 0, 0, 0.829);
+    display: inline-flex;
+
+    width: 19%;
+    height: 15%;
+}
+
+.button:hover{
+    background: #b9ecf8;
+    border-color: #b9ecf8;
+}
