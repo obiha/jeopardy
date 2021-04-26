@@ -1,5 +1,4 @@
 
-
 let row = 5;
 let column = 6;
 
@@ -41,20 +40,33 @@ function initializeClickFunction(x,y) {
     }
 }
 
+fetch('./categories.json').then(response => response.json()).then(data => collectJSON(data));
 
 
+function collectJSON(category){
 
+    for(let i = 0; i < category.length; i ++){
+        console.log(category[i].name);
+    }
 
+}
 
 
 
 function indexOnload() {
     createContainer();
     createButtons();
-
-
     initializeClickFunction(row,column);
-}
+
+    let para = document.createElement("p")
+    let node = document.createTextNode("hello");
+
+    para.appendChild(node);
+
+    document.getElementById('button01').appendChild(para);
+
+
+   }
 
 
 

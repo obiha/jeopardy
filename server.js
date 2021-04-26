@@ -3,14 +3,9 @@ const app = express();
 const PORT = 3000;
 const path = require('path');
 
-
-
 const model = require("./public/jeomodule");
 
-
-
 // const questions = require('./private/questions.json');
-
 
 let printRequest = function(request, response, next){
     console.log('/nLOGGED');
@@ -42,7 +37,6 @@ app.get('/categories', function(request, response, next){
 app.get('/questions', function(request, response, next){
     // response.sendFile(__dirname + '/public/questions.json');
     console.log(model.getCategoryName(0));
-
 });
 
 
