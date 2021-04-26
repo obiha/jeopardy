@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 body, html {
     height: 100%;
     margin: 0;
@@ -11,6 +12,7 @@ body {
     background: -webkit-linear-gradient(to right, #1600e0, #8E2DE2);  
     background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     animation: example 4s infinite linear;
+
 }
 @keyframes example {
     from{background: linear-gradient(47deg, rgba(0,74,230,1) 16%, rgb(171, 80, 231) 53%, rgb(198, 136, 255) 97%);}
@@ -23,6 +25,7 @@ body {
     padding-bottom: 0.3%; 
     height: 98%; 
     background-color: black; 
+
 }
 .button {
     
@@ -36,14 +39,47 @@ body {
 
     width: 19%;
     height: 15%;
+    
+    
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+
+
 }
+
 
 .button:hover{
     background: #b9ecf8;
     border-color: #b9ecf8;
+    color: #000000;
+}
+
+.topiccontainer{
+    padding: 0 3px 0 0;
+    width:100%;
+    text-align:center;
+}
+
+.textcontainer{
+    font-family: 'Bungee', cursive;
+    font-size: 40px;
+    padding: 0 3px 0 0;
+    
+    width:100%;
+    text-align:center;
 }
 
 
 
-p{margin: 0; padding:0; display: inline;}.button{overflow: hidden;}
+p{
+    background-color: red;
+    text-align: center;
+    align-items: center;
+    padding: 50%;
+    
+
+}
 

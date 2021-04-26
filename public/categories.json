@@ -2,31 +2,36 @@
     {
         "name" : "CANADIAN LANDMARKS",
         "questions" : [],
-        "answers" : []
+        "amount" : ["$200", "$400", "$600", "$800", "$1000"],
+        "bonus" : [false, false, false, true, false]
     },
 
     {
         "name" : "PROVINCES & TERRITORIES",
         "questions" : [],
-        "answers" : []
+        "amount" : ["$200", "$400", "$600", "$800", "$1000"],
+        "bonus" : [false, false, false, false, false]
     },
 
     {
-        "name" : "SPORTS",
+        "name" : "CANUCK SPORTS",
         "questions" : [],
-        "answers" : []
+        "amount" : ["$200", "$400", "$600", "$800", "$1000"],
+        "bonus" : [false, false, false, false, false]
     },
 
     {
         "name" : "WHEN DID IT HAPPEN?",
         "questions" : [],
-        "answers" : []
+        "amount" : ["$200", "$400", "$600", "$800", "$1000"],
+        "bonus" : [true, false, false, false, false]
     },
 
     {
         "name" : "PRIME MINISTERS",
         "questions" : [],
-        "answers" : []    
+        "amount" : ["$200", "$400", "$600", "$800", "$1000"],
+        "answers" : ["0", "6", "0", "0", "0"]  
     } 
 
 ]
